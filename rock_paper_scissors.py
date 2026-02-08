@@ -27,7 +27,6 @@ Are you ready? Let the Rock, Paper, Scissors showdown begin!
 def is_valid(choice):
     '''
     checks if the choice is rock ,paper or scissors
-    
     '''
     return  choice.capitalize() in RPS
 def play():

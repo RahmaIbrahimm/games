@@ -1,6 +1,6 @@
 #Game functions modules
-import guessNumber 
-import RPS as rps
+import guess_number 
+import rock_paper_scissors as rps
 import Hangman as hangman
 # import MathGame as mg
 # Gui modules
@@ -34,7 +34,7 @@ def guess_number_window():
     # Guess Number window
     
     #buttons
-    rule = Button(newWindow, text="game rules", command= lambda: popup(guessNumber))
+    rule = Button(newWindow, text="game rules", command= lambda: popup(guess_number))
     rule.pack()
 
 def rps_window():
